@@ -1,0 +1,48 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Center the quote box on the page */
+#quote-box {
+  background-color: var(--quote-color, #3b5998);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 5rem auto;
+  transition: background-color 1s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Quote text */
+#text {
+  font-size: 1.5rem;
+  min-height: 4rem;
+}
+
+/* Author text */
+#author {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+#new-quote,
+#tweet-quote {
+  background-color: white;
+  color: var(--quote-color, #3b5998);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 1rem;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+#tweet-quote {
+  display: inline-block;
+}
